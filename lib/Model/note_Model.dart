@@ -2,7 +2,7 @@ import 'package:hive/hive.dart';
 part 'note_Model.g.dart';
 
 @HiveType(typeId: 0)
-class NoteModel {
+class NoteModel extends HiveObject {
   @HiveField(0)
   final title;
   @HiveField(1)
